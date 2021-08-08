@@ -1,51 +1,164 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* common styles */
-
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
 /* top banner */
-header{
-    margin-top: 0;
-    margin-left: 0;
+header {
 }
-.header-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2D25A0;
-    width: 100%;
-    height: 677px;
-    /* margin-left: 0; */
-    /* margin-top: 0; */
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d25a0;
+  width: 100%;
+  height: 677px;
 }
-h1{
-    font-weight: 700;
-    font-size: 64px;
-    color: #ffffff;
-    margin-right: 102px;
-    margin-left: 156px;
-    margin-top: 207px;
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
+  margin-right: 102px;
+  margin-left: 156px;
+  margin-top: 207px;
 }
-.banner-title button{
-    margin-left: 156px;
-    margin-bottom: 169px;
-    background-color: #E02C6D;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 15px 0 10px 24px;
+.banner-title button {
+  margin-left: 156px;
+  margin-bottom: 169px;
+  background-color: #e02c6d;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 15px 0 10px 24px;
 }
-.fa-arrow-right{
-    height: 24px;
-    width: 24px;
-    margin-left: 8px;
-    padding-right: 40px;
+.fa-arrow-right {
+  height: 24px;
+  width: 24px;
+  margin-left: 8px;
+  padding-right: 40px;
 }
-header .banner-image img{
-    width: 556.01px;
-    height: 438px;
-    margin-left: 102px;
-    margin-right: 140.99px;
-    margin-top: 153px;
-    margin-bottom: 86px;
+.banner-image:hover {
+  transform: scale(1.3);
+  transition: transform 3s ease-in-out;
+}
+.banner-image img {
+  width: 556.01px;
+  height: 438px;
+  margin-left: 102px;
+  margin-right: 140.99px;
+  margin-top: 153px;
+  margin-bottom: 86px;
+}
+/* main section */
+.container {
+  width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  margin-top: 70px;
+  padding-left: 400px;
+}
+.player-data {
+  width: 330px;
+  height: 474px;
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px 5px lightgray;
+}
+.player .thumbnail img {
+  width: 300px;
+  height: 256px;
+  padding: 15px;
+}
+.player-info {
+  padding: 0 15px 33px 15px;
+}
+.player-info h2 {
+  font-weight: 700;
+  font-size: 29px;
+  color: #18191f;
+  margin-top: 0;
+
+  /* margin-bottom: 10px; */
+}
+.player-info p {
+  font-size: 16px;
+  color: #6c6c6c;
+  margin-top: 10px;
+}
+
+/* news section */
+.news {
+  margin-top: 80px;
+  margin-left: 400px;
+  margin-right: 50px;
+  width: 1050px;
+}
+.news-section {
+  display: flex;
+  align-items: center;
+  border: 10px solid #2d25a0;
+}
+.news-image a img {
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.news-head {
+  margin-left: 20px;
+}
+.news-head h2 {
+  margin-bottom: 0;
+}
+small {
+  color: gray;
+}
+
+/* interview section */
+.interview-section {
+  margin-top: 80px;
+  margin-left: 400px;
+  width: 1050px;
+}
+.interviews {
+  display: flex;
+  justify-content: center;
+}
+.interview-head h2 {
+  margin-bottom: 0;
+}
+.interview-image img {
+  height: 400px;
+  width: 500px;
+  border: 5px solid #2d25a0;
+}
+
+/* footer */
+.footer-section {
+  margin-top: 158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 63px;
+}
+.footer-image img {
+  width: 483.87px;
+  height: 110px;
+}
+.social {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.social .fab {
+  width: 15.49px;
+  height: 12.8px;
+  border: 10px solid rgb(230, 228, 228);
+  border-radius: 50%;
+  color: #969bab;
+}
+footer .copyright {
+  font-size: 18px;
 }

@@ -126,6 +126,15 @@ small {
   display: flex;
   justify-content: center;
 }
+.interview-head{
+  position: absolute;
+  top: -150px;
+  padding: 20px;
+  color: #18191f;
+}
+.head-color{
+  color: #ffffff;
+}
 .interview-head h2 {
   margin-bottom: 0;
 }

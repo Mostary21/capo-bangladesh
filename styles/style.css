@@ -126,16 +126,16 @@ small {
   display: flex;
   justify-content: center;
 }
-.interview{
+.interview {
   position: relative;
 }
-.interview-head{
+.interview-head {
   position: absolute;
   top: 200px;
   padding: 20px;
   color: #18191f;
 }
-.head-color{
+.head-color {
   color: #ffffff;
 }
 .interview-head h2 {
